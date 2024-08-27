@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be30070ab4b208246aa7011fc4c82deb, type: 3}
+  m_Name: Blacksmith Hammer
+  m_EditorClassIdentifier: 
+  index: 19
+  _name: Blacksmith Hammer
+  description: A small onehanded doublesided hammer.
+  actions:
+  - {fileID: 11400000, guid: 12868b18b2e3e7441ad6e34a6cf027e2, type: 2}
+  slots: 0300000004000000
+  armorValue: -1
+  clothes: {fileID: 11400000, guid: 581c18c7bd0eb774c8ee7a0c6bef42e1, type: 2}
+  itemImage: {fileID: 21300000, guid: 3b428d6b5921d28499cd180f905262e4, type: 3}
+  statBonuses: []
+  statRequirements: []

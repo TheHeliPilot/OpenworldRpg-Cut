@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6440024028955729243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 73359752610727778}
+  - component: {fileID: 5668694834902936416}
+  - component: {fileID: 3628211561736681807}
+  - component: {fileID: 3207844601841554288}
+  m_Layer: 0
+  m_Name: BushSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &73359752610727778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440024028955729243}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.8651506, y: 3.0549843, z: -0.017962663}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &5668694834902936416
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440024028955729243}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -149.87527, y: -155.88683}
+      - {x: -149.02853, y: 141.52435}
+      - {x: 155.15622, y: 141.65103}
+      - {x: 155.22243, y: -2.5891855}
+      - {x: -0.52725613, y: -7.9586344}
+      - {x: 7.0377307, y: -4.6404943}
+      - {x: 6.895694, y: -3.4968233}
+      - {x: 15.006487, y: -1.5613072}
+      - {x: 14.87833, y: 9.0894985}
+      - {x: -11.853099, y: 9.0299635}
+      - {x: -11.608661, y: -3.3265474}
+      - {x: -17.668343, y: -3.4149795}
+      - {x: -18.031593, y: -4.640106}
+      - {x: -11.067857, y: -8.579067}
+      - {x: 156.2099, y: -3.8644907}
+      - {x: 153.4258, y: -153.89311}
+  m_UseDelaunayMesh: 0
+--- !u!114 &3628211561736681807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440024028955729243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dfd03554de631489cad7e72e7bdab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 3254097414715302725, guid: 07cc011546523594da7fb9744ba9df69, type: 3}
+  - {fileID: 8033834359833789772, guid: b2ba3021d23d2964fa5dca710cc7030f, type: 3}
+  - {fileID: 8033834359833789772, guid: 05d95ccb840074e4daefeb594b7280eb, type: 3}
+  - {fileID: 8033834359833789772, guid: cc732cdd0be7e8044ac633b5733d85e2, type: 3}
+  count: 3000
+  randomSize: 1
+  randomFlip: 1
+--- !u!114 &3207844601841554288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440024028955729243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67dfd03554de631489cad7e72e7bdab6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 6010339837931229528, guid: 6cf336d4012d6634b93d5930b96b111d, type: 3}
+  - {fileID: 6010339837931229528, guid: 0d6297ef096d385468a98d0667cde827, type: 3}
+  count: 1500
+  randomSize: 1
+  randomFlip: 1

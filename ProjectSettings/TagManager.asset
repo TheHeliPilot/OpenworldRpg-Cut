@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - InteractableCharacter
+  - Item
+  - AI
+  - Shadow
+  - Building
+  - Cullable
+  - PlayerTrigger
+  - Interact
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Foliage
+  - Dom
+  - Light1
+  - Light2
+  - Light3
+  - Action
+  - EnviroEffects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background2
+    uniqueID: 3998122737
+    locked: 0
+  - name: Flooor
+    uniqueID: 4137378853
+    locked: 0
+  - name: Walls
+    uniqueID: 4247856523
+    locked: 0
+  - name: Front
+    uniqueID: 2942499523
+    locked: 0
+  - name: Underlay
+    uniqueID: 160044143
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Roof
+    uniqueID: 2863101569
+    locked: 0
+  - name: Overlay
+    uniqueID: 1042617099
+    locked: 0
+  - name: Light1
+    uniqueID: 1180931899
+    locked: 0
+  - name: Light2
+    uniqueID: 2761271427
+    locked: 0
+  - name: Light3
+    uniqueID: 3031443093
+    locked: 0

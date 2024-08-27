@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984540a8efd55364da99c9e3b8401a1a, type: 3}
+  m_Name: UnarmedMan
+  m_EditorClassIdentifier: 
+  enemyName: Unarmed Man
+  enemySprite: {fileID: 21300000, guid: 953fc2f9165ea184da1f5d5ea10ceb88, type: 3}
+  enemySpriteSelected: {fileID: 21300000, guid: 33f5c8b4f7f35eb4286d2b47ac233ae3, type: 3}
+  equipment:
+  - a
+  - a
+  - b
+  - a
+  - a
+  health: 0f000000140000000f0000000f0000000f000000
+  hitChancePercent: 2800000050000000460000004600000046000000
+  mainHandAttack:
+    attack: {fileID: 11400000, guid: f2781c2bfb2b1844e9d3bc8944ce3bc3, type: 2}
+    hitChance: 50
+  offHandAttack:
+    attack: {fileID: 11400000, guid: f2781c2bfb2b1844e9d3bc8944ce3bc3, type: 2}
+    hitChance: 50
+  resistances: []
+  mainHandChance: 50

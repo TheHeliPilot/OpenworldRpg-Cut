@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be30070ab4b208246aa7011fc4c82deb, type: 3}
+  m_Name: Torch
+  m_EditorClassIdentifier: 
+  index: 5
+  _name: Torch
+  description: A regular torch. It burns.
+  actions: []
+  slots: 0300000004000000
+  armorValue: -1
+  clothes: {fileID: 0}
+  itemImage: {fileID: 21300000, guid: 3b428d6b5921d28499cd180f905262e4, type: 3}
+  statBonuses:
+  - skill: 0
+    value: 0
+  statRequirements: []

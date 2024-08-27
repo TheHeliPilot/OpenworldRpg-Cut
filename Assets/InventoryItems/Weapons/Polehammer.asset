@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be30070ab4b208246aa7011fc4c82deb, type: 3}
+  m_Name: Polehammer
+  m_EditorClassIdentifier: 
+  index: 6
+  _name: Polehammer
+  description: A big polearm with a hammer and a pointy part. Very deadly.
+  actions:
+  - {fileID: 11400000, guid: 46c22de2d6a11fd4d977a636ee27cf10, type: 2}
+  - {fileID: 11400000, guid: 47deb434b75c31a4fb8a0b7ee4ad60d0, type: 2}
+  slots: 03000000
+  armorValue: -1
+  clothes: {fileID: 11400000, guid: c687e5ac8f4b37448ae4aafb204738c9, type: 2}
+  itemImage: {fileID: 21300000, guid: 4e4c862f447340545ab1e0e113624534, type: 3}
+  statBonuses: []
+  statRequirements:
+  - skill: 0
+    value: 15

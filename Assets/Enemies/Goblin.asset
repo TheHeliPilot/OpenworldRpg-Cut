@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 984540a8efd55364da99c9e3b8401a1a, type: 3}
+  m_Name: Goblin
+  m_EditorClassIdentifier: 
+  enemyName: Goblin
+  enemySprite: {fileID: 21300000, guid: 9b4859da695fe8e4381f69829d60dac6, type: 3}
+  enemySpriteSelected: {fileID: 21300000, guid: e46bb32915cf8f7408695f575a36e2f4, type: 3}
+  equipment:
+  - a
+  - a
+  - b
+  - a
+  - a
+  health: 0f0000000f0000000a0000000500000005000000
+  hitChancePercent: 1e0000003c0000000f0000003200000014000000
+  mainHandAttack:
+    attack: {fileID: 11400000, guid: 3e531e19368dadf4f92b287b844d78f2, type: 2}
+    hitChance: 50
+  offHandAttack:
+    attack: {fileID: 11400000, guid: f2781c2bfb2b1844e9d3bc8944ce3bc3, type: 2}
+    hitChance: 50
+  resistances: []
+  mainHandChance: 60

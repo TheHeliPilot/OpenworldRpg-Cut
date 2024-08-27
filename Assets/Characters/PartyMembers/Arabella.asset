@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efa4f5dffe62ac84e88538ae5ac61372, type: 3}
+  m_Name: Arabella
+  m_EditorClassIdentifier: 
+  speaker: {fileID: 11400000, guid: 250ca80a2f63f0c49bcfb5d2eb23b848, type: 2}
+  health: 1400000028000000140000000f0000000f000000
+  baseSkills:
+  - skill: 0
+    value: 10
+  - skill: 1
+    value: 10
+  - skill: 2
+    value: 10
+  - skill: 3
+    value: 10
+  - skill: 4
+    value: 10
+  - skill: 5
+    value: 10
+  mainHand: {fileID: 11400000, guid: e7f3cfc5a4015ec408f2c0eea55543b8, type: 2}
+  offHand: {fileID: 11400000, guid: 0b3285dee9f7b76429f7204d65ddfa0d, type: 2}
